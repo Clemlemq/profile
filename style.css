@@ -1,0 +1,117 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+/*Colors And Fonts*/
+body {
+  background-color: white;
+  font-family: 'roboto', sans serif;
+  color: black;
+  line-height: normal;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: 'work sans', sans serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #28303B;
+  font-size: 40;
+}
+
+h2 {
+  font-weight: bold;
+  color: #28303B;
+  font-size: 24;
+}
+
+h3 {
+  font-weight: bold;
+  color: grey;
+  font-size: 24;
+}
+
+a {
+  text-decoration :none;
+  color :black;
+  font-weight: bold;
+  color: #86A0B3;
+}
+
+a:hover {
+  color :black;
+}
+
+/*Class And Id*/
+.btn-blue {
+  background-color: #86A0B3;
+  color: white;
+  font-size: 24;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.btn-blue:hover {
+  color: #424242;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.text-center {
+  text-align: center;
+}
+
+#intro p {
+  margin-bottom: 32px;
+}
+
+#footer a {
+  font-size: 50px;
+}
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 32px;
+  margin: 20px auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/*Responsive*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
