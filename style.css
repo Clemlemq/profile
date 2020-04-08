@@ -108,7 +108,7 @@ a:hover {
     width: 500px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 560px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
